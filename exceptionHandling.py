@@ -13,18 +13,35 @@
 
 
 
-print()
-print("Another example")
-print()
+# print()
+# print("Another example")
+# print()
 
-def DivisionOfMultipleNumbers(num1, num2):
-    try:
-        div = ((num1+num2) / (num1-num2))
-    except ZeroDivisionError:
-        print("This resulted in zero ('0')")
-    else:
-        print("The result of the division of numbers are ",div)
+# def DivisionOfMultipleNumbers(num1, num2):
+#     try:
+#         div = ((num1+num2) / (num1-num2))
+#     except ZeroDivisionError:
+#         print("This resulted in zero ('0')")
+#     else:
+#         print("The result of the division of numbers are ",div)
 
 
-DivisionOfMultipleNumbers(2, 2)
-DivisionOfMultipleNumbers(9, 10)
+# DivisionOfMultipleNumbers(2, 2)
+# DivisionOfMultipleNumbers(9, 10)
+
+
+
+
+
+
+
+
+
+
+# Program to depict Raising Exception
+
+try:
+	raise NameError("Hi there") # Raise Error
+except NameError:
+	print ("An exception")
+	raise # To determine whether the exception was raised or not
